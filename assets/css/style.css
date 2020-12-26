@@ -74,12 +74,34 @@ margin-left: 5%;
   bottom: 0;
 width: 100% !important;
 }
-#footerc{
-  position: relative;
-  bottom: 0;
-width: 100% !important;
-margin-top: 40px;
-}
+
+
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+            /*If the screen size is atleast 300px wide, but no more than 767px */
+            #footerc{
+              position: fixed;
+              bottom: 0;
+            width: 100% !important;
+            }
+
+
+
+        }
+
+
+@media only screen and (min-width: 1024px) {
+            /* If the screen size is over 1024px wide. */
+
+            #footerc{
+              position: relative;
+              bottom: 0;
+            width: 100% !important;
+            margin-top: 40px;
+            }
+
+        }
+
 .img-container{
   display: flex;
   justify-content: center;
