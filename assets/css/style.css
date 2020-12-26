@@ -1,17 +1,86 @@
-/**
-* Template Name: Amoeba - v2.0.0
-* Template URL: https://bootstrapmade.com/free-one-page-bootstrap-template-amoeba/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #777;
 }
+
+/* .donation-container{
+  display: flex;
+  justify-content: center;
+} */
+
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+            /*If the screen size is atleast 300px wide, but no more than 767px */
+
+            .donation-container{
+              margin-top: 50px;
+            }
+            .img-donate{
+              width:250px;
+              height: 200px;
+            }
+
+            .resource-list{
+
+font-weight: bold;
+
+            }
+            .rl{
+              display: flex;
+margin-left: 5%;
+              margin-top: 120px;
+              font-weight: 400;
+              font-size: 24px;
+            }
+
+        }
+
+        @media only screen and (min-width: 1024px) {
+                    /* If the screen size is over 1024px wide. */
+                    .rl{
+                      display: flex;
+                      justify-content: center;
+                      margin-top: 120px;
+                      font-weight: 400;
+                      font-size: 24px;
+                    }
+                    .resource-list{
+                      display: flex;
+                      justify-content: center;
+
+                      font-weight: bold;
+
+                                  }
+                    .ba{
+                      text-align: center;
+                    }
+                    .donation-container{
+                      display: flex;
+                      justify-content: center;
+                      margin-top: 50px;
+                      font-size: 24px;
+                    }
+                    .img-donate{
+                      width:400px;
+                      height: 300px;
+                    }
+
+
+                }
+
+#footerc{
+position:absolute !important;
+bottom: 0 !important;
+width: 100% !important;
+}
+.img-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+
 
 a {
   color: #43aea0;
@@ -324,6 +393,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   background-size: cover;
   position: relative;
   margin-bottom: -80px;
+  margin-top: 150px;
 }
 
 #hero:before {
@@ -886,6 +956,25 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+#footerc {
+  background: #073839;
+  padding: 30px 0;
+  color: #fff;
+  font-size: 14px;
+}
+
+#footerc .copyright {
+  text-align: center;
+}
+
+#footerc .credits {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+}
+
+
 #footer {
   background: #073839;
   padding: 30px 0;
